@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<script type="text/javascript">
+		window.onload = function() {
+			var ns = "http://www.w3.org/2000/svg";
+			var svg = document.createElementNS(ns, 'svg');
+			document.body.appendChild(svg);
+			var g = document.createElementNS(ns, 'g');
+
+			var r1 = document.createElementNS(ns, 'circle');
+			r1.setAttribute('cx', 53);
+			r1.setAttribute('cy', 69);
+			r1.setAttribute('r', 31);
+			r1.setAttribute('stroke', '#000000');
+			r1.setAttribute('fill', '#007fff');
+
+			g.appendChild(r1);
+			svg.appendChild(g);
+		};
+	</script>
+</head>
+<body>
+</body>
+</html>
